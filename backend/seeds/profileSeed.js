@@ -12,7 +12,7 @@ const profileData = {
   resumeUrl: '',
   socialLinks: {
     github: 'https://github.com/Ubaid123678',
-    linkedin: '',
+    linkedin: 'https://www.linkedin.com/in/ubaid1525/',
     twitter: '',
     instagram: '',
     facebook: '',

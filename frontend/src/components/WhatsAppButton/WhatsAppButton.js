@@ -5,9 +5,9 @@ import './WhatsAppButton.css';
 const WhatsAppButton = () => {
   const [isVisible, setIsVisible] = useState(false);
   
-  const whatsappNumber = process.env.REACT_APP_WHATSAPP_NUMBER || '+1234567890';
+  const whatsappNumber = process.env.REACT_APP_WHATSAPP_NUMBER || '+923053004536';
   const whatsappMessage = encodeURIComponent(
-    process.env.REACT_APP_WHATSAPP_MESSAGE || 'Hello! I would like to connect with you.'
+    process.env.REACT_APP_WHATSAPP_MESSAGE || 'Hi Ubaid! I would like to connect with you.'
   );
 
   useEffect(() => {
